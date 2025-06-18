@@ -7,8 +7,8 @@ from PIL import Image
 import requests
 from bs4 import BeautifulSoup
 
-SERPAPI_KEY = "7080be35e47ad91ce6180ac7c8ef99b30c0bff090a23460ba4ca2c4e65edcc85"
-GEMINI_API_KEY = "AIzaSyBGicIWQVK46W1-UCPt7HqurtyDUi_EGso"
+SERPAPI_KEY = "your-serpapi-key"
+GEMINI_API_KEY = "your-gemini-api-key"
 
 def search_startup(query):
     try:
