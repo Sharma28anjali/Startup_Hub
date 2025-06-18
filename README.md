@@ -50,8 +50,8 @@ Enter your startup's focus (e.g., marketing, design) and get recommended tools f
 
 
 3. **Install dependencies**
-```bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 
 4. **Add your API keys**
@@ -64,5 +64,5 @@ Open the script and replace:
 
 5. **Run the app**
 
-```bash
-python app.py
+    ```bash
+    python app.py
