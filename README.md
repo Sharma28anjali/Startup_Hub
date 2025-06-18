@@ -41,3 +41,28 @@ Enter your startup's focus (e.g., marketing, design) and get recommended tools f
    ```bash
    git clone https://github.com/Sharma28anjali/startup-hub.git
    cd startup-hub
+
+
+2. **Create a virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # on Windows: venv\Scripts\activate
+
+
+3. **Install dependencies**
+```bash
+pip install -r requirements.txt
+
+
+4. **Add your API keys**
+Open the script and replace:
+
+      -> SERPAPI_KEY = "your-serpapi-key"
+
+      -> GEMINI_API_KEY = "your-gemini-api-key"
+
+
+5. **Run the app**
+
+```bash
+python app.py
